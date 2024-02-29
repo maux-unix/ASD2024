@@ -1,3 +1,8 @@
 *.obj
 *.exe
 .vscode
+*.lib
+*.o
+*.obj
+*.dll
+*.pdb
