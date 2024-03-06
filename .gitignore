@@ -1,6 +1,7 @@
 *.obj
 *.exe
 .vscode
+.vs
 *.lib
 *.o
 *.obj
