@@ -2,8 +2,9 @@
 
 ## Pendahuluan
 
-Abstrak Data Types - ADT
-Single, Double, dan Circular Linked List - LL
+- Abstrak Data Types - ADT
+
+- Single, Double, dan Circular Linked List - LL
 
 
 Notes : 
