@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -16,7 +16,6 @@ struct Mahasiswa
 
 int main(void)
 {
-
     // Integer
     char b = 0;
     short int a = 0;
