@@ -5,7 +5,7 @@
     HAK CIPTA (C) 2024
 */
 
-#include "header.h"
+#include "../../header.h"
 
 int main(void) {
     int *x, *y;

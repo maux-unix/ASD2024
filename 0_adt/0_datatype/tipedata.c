@@ -4,7 +4,7 @@
     Hak Cipta (C) 2024 
 */
 
-#include "header.h"
+#include "../../header.h"
 
 /* Fungsi Utama (tanpa argumen) */
 int main(void) {
