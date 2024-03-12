@@ -3,7 +3,7 @@
     MAULANA ALI
 */
 
-#include <bits/stdc++.h>
+#include "../../header.hpp"
 
 typedef struct Member {
     int num;
