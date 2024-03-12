@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include "../../header.hpp"
 
 typedef struct PolynomialTerm {
     int koefisien;
@@ -97,11 +95,11 @@ int main(void) {
     r = operasi_polinomial(p1, p2, "kurang");
     tampil_polinomial(r, "result");
 
-    r = kali_polinomial(p1, p2);
+    r = kali_polinomial(p1, p3);
     tampil_polinomial(r, "result");
 
     r = turunan_polinomial(p2);
-    tampil_polinomial(r, "P2");
+    tampil_polinomial(r, "result");
 
     return 0;
 }
