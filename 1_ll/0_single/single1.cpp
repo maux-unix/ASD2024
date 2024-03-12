@@ -6,17 +6,19 @@ typedef struct Polinomial {
 } pol;
 
 pol tambah_polinomial(pol p1, pol p2){
+    if (p1.pangkat != p2.pangkat){
+        return p1;
+    }
     p1.koefisien += p2.koefisien;
     return p1;
 }
-
+// P1 = 2x^5
+// P2 = 2x^4
 pol kurang_polinomial(pol p1, pol p2){
+    if (p1.pangkat != p2.pangkat){
+        return p1;
+    }
     p1.koefisien -= p2.koefisien;
-    return p1;
-}
-
-pol kali_polinomial(pol p1, pol p2) {
-    
     return p1;
 }
 
@@ -30,8 +32,8 @@ void tampil_polinomial(std::forward_list<pol> p, std::string nama_pol) {
 
 int main(void) {
     char x = 'x';
-    std::forward_list<pol> pol1 = {{2,2}, {2,1}, {2, 0}};
-    std::forward_list<pol> pol2 = {{2,2}, {2,1}, {2, 0}};
+    std::forward_list<pol> pol1 = {{2,10}, {2,7}, {2, 3}};
+    std::forward_list<pol> pol2 = {{2,9}, {2,7}, {2, 0}};
 
     tampil_polinomial(pol1, "P1");
     tampil_polinomial(pol2, "P2");
@@ -41,7 +43,15 @@ int main(void) {
     auto it2 = pol2.begin();
     while (it1 != pol1.end() && it2 != pol2.end()) {
         pol result = tambah_polinomial(*it1, *it2);
-        std::cout << result.koefisien << "x^" << result.pangkat << " + ";
+        if (it1->pangkat != it2->pangkat) {
+            //concat the remaining polinomial here
+            if (it1->pangkat > it2->pangkat) {
+                std::cout << it1->koefisien << "x^" << it1->pangkat << " + ";
+                std::cout << it2->koefisien << "x^" << it2->pangkat << " + ";
+            }
+        } else {
+            std::cout << result.koefisien << "x^" << result.pangkat << " + ";
+        }
         ++it1;
         ++it2;
     }
