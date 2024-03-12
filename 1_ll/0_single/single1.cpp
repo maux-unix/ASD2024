@@ -12,13 +12,16 @@ pol tambah_polinomial(pol p1, pol p2){
     p1.koefisien += p2.koefisien;
     return p1;
 }
-// P1 = 2x^5
-// P2 = 2x^4
+
 pol kurang_polinomial(pol p1, pol p2){
     if (p1.pangkat != p2.pangkat){
         return p1;
     }
     p1.koefisien -= p2.koefisien;
+    return p1;
+}
+
+pol kali_polinomial(pol p1, pol p2) {
     return p1;
 }
 
