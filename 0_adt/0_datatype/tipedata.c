@@ -1,7 +1,10 @@
 /*
-    Judul: Tipe Data dalam C
-    Author: Maulana Ali
-    Hak Cipta (C) 2024 
+    JUDUL   : TIPE DATA DALAM C
+    TANGGAL : 11/3/2024
+
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
 */
 
 #include "../../header.h"

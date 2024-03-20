@@ -1,6 +1,4 @@
-#include <cstdlib>
-#include <iostream>
-#include <cmath>
+#include "../../header.hpp"
 
 using namespace std;
 

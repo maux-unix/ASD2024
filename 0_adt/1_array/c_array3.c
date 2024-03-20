@@ -1,3 +1,12 @@
+/*
+    JUDUL   : STATIC ARRAY DALAM C
+    TANGGAL : 28/2/2024
+
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
+*/
+
 #include "../../header.h"
 
 int main(void) {

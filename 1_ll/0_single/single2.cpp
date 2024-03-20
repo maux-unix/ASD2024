@@ -1,6 +1,10 @@
 /*
-    SINGLE LINKED LIST
-    MAULANA ALI
+    JUDUL   : SINGLE LINKED LIST DALAM C++
+    TANGGAL : 11/2/2024
+
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
 */
 
 #include "../../header.hpp"

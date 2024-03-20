@@ -1,11 +1,15 @@
 /*
-    STANDARD LIBRARIES DARI C
+    JUDUL   : STANDARD LIBRARIES DALAM C23
+    TANGGAL : 13/3/2024
+
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
 */
 
-#include <stdio.h>
-
-#include <assert.h>
-#include <complex.h>
+#include <stdio.h>      /* Input/Output Streams */
+#include <assert.h>     /* */
+#include <complex.h>    /* */
 #include <ctype.h>
 #include <errno.h>
 #include <fenv.h>
@@ -20,20 +24,24 @@
 #include <stdalign.h>
 #include <stdarg.h>
 #include <stdatomic.h>
-// #include <stdbit.h>
 #include <stdbool.h>
-// #include <stdckdint.h>
 #include <stddef.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdnoreturn.h>
 #include <string.h>
 #include <tgmath.h>
-// #include <threads.h>
 #include <time.h>
 #include <uchar.h>
 #include <wchar.h>
 #include <wctype.h>
+
+/* MASIH BELUM SUPPORT DI C23 STANDARD GCC */
+// #include <stdbit.h>
+// #include <stdckdint.h>
+
+/* UNKNOWN BEHAVIOUR DI KOMPUTERKU */
+// #include <threads.h> 
 
 #define __UCHAR_MAX_ 0xff /* 0 <= short int <= (2^8 -1) */
 #define __USHRT_MAX_ 0xffff /* 0 <= short int <= (2^16 -1) */

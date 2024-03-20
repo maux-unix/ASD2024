@@ -1,7 +1,10 @@
 /*
-    Judul : Static Array dalam C
-    Author : MAULANA ALI
-    Hak Cipta (c) 2024 MIT License
+    JUDUL   : STATIC ARRAY DALAM C
+    TANGGAL : 11/3/2024
+
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
 */
 
 #include "../../header.h"

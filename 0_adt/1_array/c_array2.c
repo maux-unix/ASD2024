@@ -1,16 +1,10 @@
 /*
-    JUDUL   : DYNAMIC ARRAY DALAM C DENGAN 
-    AUTHOR  : MAULANA ALI
-    LISENSI : MIT LICENSE
-    HAK CIPTA (C) 2024
+    JUDUL   : DYNAMIC ARRAY DALAM C
+    TANGGAL : 12/3/2024
 
-    REFERENSI
-    =========
-    ALOKASI MEMORI DALAM C
-    - malloc() -> c_malloc.c
-    - calloc() -> c_calloc.c
-    - realloc() -> c_realloc.c
-    - free() -> c_free.c
+    HAK CIPTA (C) 2024
+    AUTHOR  : MAULANA ALI
+    LICENSE : BSD-2 LICENSE
 */
 
 #include "../../header.h"
