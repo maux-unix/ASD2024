@@ -3,10 +3,6 @@
 Repositori ini adalah kumpulan kode program C/C++ yang digunakan dalam kelas
 praktikum Algoritma & Struktur Data Tahun Ajaran 2024.
 
-## Pendahuluan
-
-### 
-
 ## Materi Pembelajaran
 
 1. Abstract Data Types (ADT)
