@@ -115,6 +115,7 @@
         "list": "cpp",
         "expected": "cpp",
         "stdbool.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "limits.h": "c"
     }
 }

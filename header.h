@@ -8,15 +8,15 @@
 */
 
 #include <stdio.h>      /* Input/Output Streams */
-#include <assert.h>     /* */
-#include <complex.h>    /* */
+#include <assert.h>     /* Diagnostics Tests */
+#include <complex.h>    /* Complex Arithmetic */
 #include <ctype.h>
 #include <errno.h>
 #include <fenv.h>
 #include <float.h>
 #include <inttypes.h>
-#include <iso646.h>
-#include <limits.h>
+#include <iso646.h>     /* ISO646 naming conventions for logical expressions */
+#include <limits.h>     /* Limits of*/
 #include <locale.h>
 #include <math.h>
 #include <setjmp.h>
@@ -40,7 +40,7 @@
 // #include <stdbit.h>
 // #include <stdckdint.h>
 
-/* UNKNOWN BEHAVIOUR DI KOMPUTERKU */
+/* UNKNOWN BEHAVIOUR DI KOMPUTERKU, SEPERTINYA ONLY IN UNIX-BASED OS*/
 // #include <threads.h> 
 
 #define __UCHAR_MAX_ 0xff /* 0 <= short int <= (2^8 -1) */

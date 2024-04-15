@@ -7,7 +7,14 @@
     LICENSE : BSD-2 LICENSE
 */
 
-#include "../../header.h"
+#include <stdio.h>
+#include <stdint.h>
+
+#define __UCHAR_MAX_ 0xff /* 0 <= short int <= (2^8 -1) */
+#define __USHRT_MAX_ 0xffff /* 0 <= short int <= (2^16 -1) */
+#define __UINT_MAX_  0xffffffff/* 0 <= int <= (2^32 -1) */
+#define __ULONG_MAX_ 0xffffffff /* Sama dengan int */
+#define __ULONG_LONG_MAX 0xffffffffffffffff /* -(2^32) <= long int <= (2^64 -1) */
 
 /* Fungsi Utama (tanpa argumen) */
 int main(void) {
